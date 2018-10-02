@@ -14,7 +14,8 @@ int main()
 	PORTA = 0x00;
 	while(1)
 	{
-
+		PORTA = ~PORTA;
+		_delay_ms(1000);
 	}
 
 	return 0;
